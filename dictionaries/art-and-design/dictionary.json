@@ -1,0 +1,34 @@
+{
+	"id": "art-and-design",
+	"name": "Art and design",
+	"description": "Art styles and periods, visual works, techniques, and typography.",
+	"keywords": [
+		"art",
+		"art history",
+		"design",
+		"graphic design",
+		"typography",
+		"painting",
+		"sculpture",
+		"printmaking",
+		"photography",
+		"ceramics",
+		"decorative arts",
+		"museums",
+		"curators",
+		"conservation",
+		"AAT"
+	],
+	"version": "aat-2026.11.26-v4",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "Getty Art & Architecture Thesaurus (AAT), retrieved November 26, 2026",
+			"url": "https://vocab.getty.edu/",
+			"license": "ODC-By 1.0",
+			"licenseUrl": "https://opendatacommons.org/licenses/by/1-0/",
+			"attribution": "This dictionary contains information from Art & Architecture Thesaurus (AAT)® which is made available under the ODC Attribution License.",
+			"notice": "English labels from the Styles and Periods, Visual Works, Processes and Techniques, Design Elements and Color hierarchies and the visual-works and information-form components, retrieved from the Getty SPARQL endpoint on November 26, 2026, and selected, normalized and filtered by WriteKite; parenthetical qualifiers are removed. AAT © J. Paul Getty Trust. AAT is a registered trademark of the J. Paul Getty Trust, named here as a source; the Getty does not endorse WriteKite. Provided as is, without warranty."
+		}
+	]
+}

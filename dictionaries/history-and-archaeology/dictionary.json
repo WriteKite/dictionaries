@@ -1,0 +1,48 @@
+{
+	"id": "history-and-archaeology",
+	"name": "History and archaeology",
+	"description": "Ancient places, peoples, and the names of historical periods.",
+	"keywords": [
+		"history",
+		"archaeology",
+		"ancient history",
+		"classics",
+		"classical studies",
+		"antiquity",
+		"ancient places",
+		"Roman",
+		"Greek",
+		"periods",
+		"prehistory",
+		"heritage",
+		"museums"
+	],
+	"version": "pleiades-2026.11.26-periodo-2026.10.22-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "Pleiades, daily export of November 26, 2026",
+			"url": "https://pleiades.stoa.org/",
+			"license": "CC BY 3.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+			"attribution": "Pleiades: A Gazetteer of Past Places, https://pleiades.stoa.org/, by its editors and contributors.",
+			"notice": "Latin-script names of ancient settlements, peoples, regions and natural features from the November 26, 2026 export, kept only where the place's Wikidata English label gives the same name, selected, normalized and filtered by WriteKite. Provided as is, without warranty. Pleiades does not endorse WriteKite."
+		},
+		{
+			"name": "Wikidata, items with a Pleiades ID (P1584)",
+			"url": "https://www.wikidata.org/wiki/Property:P1584",
+			"license": "CC0 1.0",
+			"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"attribution": "Wikidata contributors.",
+			"notice": "English labels queried November 26, 2026, used to confirm Pleiades names and their capitals."
+		},
+		{
+			"name": "PeriodO, dataset of October 22, 2026",
+			"url": "https://perio.do/",
+			"license": "CC0 1.0",
+			"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"attribution": "PeriodO contributors.",
+			"notice": "English period labels, selected and filtered by WriteKite."
+		}
+	]
+}

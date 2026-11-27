@@ -1,0 +1,40 @@
+{
+	"id": "fashion-and-textiles",
+	"name": "Fashion and textiles",
+	"description": "Clothing, costume history, fabrics, and textile techniques.",
+	"keywords": [
+		"fashion",
+		"clothing",
+		"costume",
+		"dress history",
+		"textiles",
+		"fabrics",
+		"sewing",
+		"knitting",
+		"weaving",
+		"crochet",
+		"footwear",
+		"headwear",
+		"tailoring"
+	],
+	"version": "aat-2026.11.26-wiktionary-2026.10.01-v4",
+	"license": "CC BY-SA 4.0",
+	"sources": [
+		{
+			"name": "Getty Art & Architecture Thesaurus (AAT), retrieved November 26, 2026",
+			"url": "https://vocab.getty.edu/",
+			"license": "ODC-By 1.0",
+			"licenseUrl": "https://opendatacommons.org/licenses/by/1-0/",
+			"attribution": "This dictionary contains information from Art & Architecture Thesaurus (AAT)® which is made available under the ODC Attribution License.",
+			"notice": "English labels from the Costume hierarchy, the costume and textile components, the textile processes and techniques, and the textile materials, fibers, cords, trimmings and dyes of the Materials hierarchy, retrieved from the Getty SPARQL endpoint on November 26, 2026, and selected, normalized and filtered by WriteKite; parenthetical qualifiers are removed. AAT © J. Paul Getty Trust. AAT is a registered trademark of the J. Paul Getty Trust, named here as a source; the Getty does not endorse WriteKite. Provided as is, without warranty."
+		},
+		{
+			"name": "English Wiktionary, dump of October 1, 2026 (kaikki.org extract)",
+			"url": "https://en.wiktionary.org/",
+			"license": "CC BY-SA 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"attribution": "Wiktionary contributors, English Wiktionary, https://en.wiktionary.org/.",
+			"notice": "Headwords and their listed inflections from the Clothing, Headwear, Footwear, Underwear, Swimwear, Eyewear, Neckwear, Handwear, Fashion, Fabrics, Textiles, Fibers, Sewing, Knitting, Weaving and Crochet categories, taken from the kaikki.org wiktextract extract of the October 1, 2026 dump and selected and filtered by WriteKite. Because it includes Wiktionary material, this dictionary as a whole is licensed under CC BY-SA 4.0; share it and changes to it under the same licence."
+		}
+	]
+}

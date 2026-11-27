@@ -1,0 +1,27 @@
+name: "Add words"
+description: "Suggest words that an existing dictionary should accept."
+title: "[ADD WORDS] <dictionary id>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: dictionary
+    attributes:
+      label: "Dictionary id"
+      description: "Give the dictionary's id: its folder name in `dictionaries/`, for example `legal`."
+    validations:
+      required: true
+  - type: textarea
+    id: words
+    attributes:
+      label: "Words to add"
+      description: "Put one word per line, spelled as you want it accepted. Right only in certain regions? Add their codes after the word, with spaces between: `metacentre GB CA AU IN`. Codes: `US GB CA AU IN`."
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence for each word"
+      description: "For every word, link a dictionary entry or an entry in an authority's list, like a standards body's glossary. Or link two published uses by different people. Text an AI wrote doesn't count."
+    validations:
+      required: true

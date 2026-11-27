@@ -1,0 +1,39 @@
+{
+	"id": "linguistics",
+	"name": "Linguistics",
+	"description": "Linguistics, grammar, phonetics, and the names of languages.",
+	"keywords": [
+		"linguistics",
+		"grammar",
+		"phonetics",
+		"phonology",
+		"syntax",
+		"semantics",
+		"morphology",
+		"languages",
+		"language names",
+		"language families",
+		"translation",
+		"lexicography"
+	],
+	"version": "wiktionary-2026.10.01-v1",
+	"license": "CC BY-SA 4.0",
+	"sources": [
+		{
+			"name": "English Wiktionary, dump of October 1, 2026 (kaikki.org extract of October 30, 2026)",
+			"url": "https://en.wiktionary.org/",
+			"license": "CC BY-SA 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"attribution": "Wiktionary contributors",
+			"notice": "Headwords and their listed inflected forms from senses labelled with this field's topics, filtered and normalized by WriteKite; definitions are not included. Because it includes Wiktionary material, this dictionary as a whole is licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)."
+		},
+		{
+			"name": "Glottolog 5.4",
+			"url": "https://glottolog.org/",
+			"license": "CC BY 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+			"attribution": "Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2026. Glottolog 5.4. Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.18840935",
+			"notice": "Names of languages and top-level families, filtered by WriteKite. Provided as is, without warranties."
+		}
+	]
+}

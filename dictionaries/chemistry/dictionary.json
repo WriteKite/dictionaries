@@ -1,0 +1,25 @@
+{
+	"id": "chemistry",
+	"name": "Chemistry",
+	"description": "Chemical compounds, metabolites, and biochemical terminology.",
+	"keywords": [
+		"chemical",
+		"biochemistry",
+		"organic chemistry",
+		"metabolites",
+		"chemical entities",
+		"ChEBI"
+	],
+	"version": "chebi-255-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "ChEBI, release 255",
+			"url": "https://www.ebi.ac.uk/chebi/",
+			"license": "CC BY 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+			"attribution": "ChEBI data from EMBL-EBI, https://www.ebi.ac.uk/chebi; version 255.",
+			"notice": "Release September 9, 2026. ChEBI team-curated names from the 3-star LITE records, selected, normalized and filtered by WriteKite. Names with unsupported chemical punctuation, preliminary records, third-party-only records and synonyms are excluded. Coverage is chemical entities of biological interest, not all chemistry. Provided as is, without warranty or endorsement. Retain attribution, license and this modification notice."
+		}
+	]
+}

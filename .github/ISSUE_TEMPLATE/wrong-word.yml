@@ -1,0 +1,39 @@
+name: "Report a wrong word"
+description: "Report a dictionary entry that is wrong or doesn't belong there."
+title: "[WRONG WORD] <entry>"
+labels: ["bug"]
+body:
+  - type: input
+    id: dictionary
+    attributes:
+      label: "Dictionary id"
+      description: "Give the id of the dictionary with the entry: its folder name in `dictionaries/`, for example `medical`."
+    validations:
+      required: true
+  - type: input
+    id: entry
+    attributes:
+      label: "Entry as listed"
+      description: "Copy the word or term exactly as listed, without region codes, for example `metacentre`."
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: "Kind of problem"
+      options:
+        - "Misspelled"
+        - "Wrong capitals"
+        - "Wrong regions"
+        - "Not used in the dictionary's subject"
+        - "Not an English word"
+        - "Something else"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "More details"
+      description: "Write the correct form, if there is one, and add a link that shows it. If \"Something else\" is your choice, you need to say here what is wrong."
+    validations:
+      required: false

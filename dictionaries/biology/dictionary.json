@@ -1,0 +1,27 @@
+{
+	"id": "biology",
+	"name": "Biology",
+	"description": "Cell biology, molecular functions, and biological processes.",
+	"keywords": [
+		"cell biology",
+		"molecular biology",
+		"genetics",
+		"genomics",
+		"microbiology",
+		"immunology",
+		"biological processes",
+		"gene ontology"
+	],
+	"version": "go-2026.08.05-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "Gene Ontology, release August 5, 2026",
+			"url": "https://doi.org/10.5281/zenodo.21844811",
+			"license": "CC BY 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+			"attribution": "© 1999–2026 Gene Ontology Consortium.",
+			"notice": "Ontology version July 26, 2026, packaged in release August 5, 2026. Nondeprecated GO labels and exact synonyms, filtered and normalized by WriteKite. DOI: 10.5281/zenodo.21844811. Provided as is, without warranties under CC BY 4.0."
+		}
+	]
+}

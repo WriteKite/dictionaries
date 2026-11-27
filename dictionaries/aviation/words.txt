@@ -1,0 +1,123 @@
+ACMI lease
+aerodyne
+aerodynes
+airstop
+airstops
+antiair
+autoflare
+autoflares
+autogas
+autogyro
+autogyros
+autoland
+autorotation
+autothrottle
+avgas
+blowdown limit
+boomless cruise
+cannular
+convertiplane
+convertiplanes
+coterminal
+decalage
+deconflict
+downwash
+downwashes
+elevon
+elevons
+Embraer
+empennage
+empennages
+Etihad
+fam trip
+fini flight
+flaperon
+flaperons
+flightworthy
+fly-ins
+get-there-itis
+Gillham code
+Gillham interface
+glideslope
+go-arounds
+Gosport tube
+gyrocopter
+gyrocopters
+helidrome
+helidromes
+hexacopter
+hexacopters
+hypergol
+hypergolic
+hypergols
+IFR
+Krueger flap
+Kármán line
+landside
+landsides
+loadmaster
+loadmasters
+Machmeter
+Machmeters
+middeck
+MiGs
+mogas
+navaid
+navaids
+NDB
+octocopter
+omnirange
+omniranges
+ornithopter
+ornithopters
+pitot head
+pitot tube
+pitot-static
+propjet
+propjets
+propulsor
+propulsors
+quadcopter
+quadcopters
+RNAV
+rockoon
+rockoons
+rotaplane
+rotaplanes
+Schwalbe
+scramjet
+scramjets
+seadrome
+seadromes
+Sears-Haack body
+sideslip
+sideslipped
+skiplagged
+smokejumper
+smokejumpers
+spaceplane
+split S
+sponson
+sponsons
+Starfighter
+STOLport
+strapdown
+Sukhoi
+supercruise
+taildragger
+tailhook
+tailskid
+tailskids
+Teleran
+Thach weave
+trijet
+trijets
+UNICOM
+vertiport
+vertiports
+VFR direct
+Vyse
+wetted area
+wheelbarrowing
+wingsuit
+wingsuits

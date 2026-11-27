@@ -1,0 +1,30 @@
+{
+	"id": "pharmacy-and-drug-names",
+	"name": "Pharmacy and drug names",
+	"description": "Generic drug names, salt forms, and US brand names.",
+	"keywords": [
+		"pharmacy",
+		"pharmacology",
+		"drugs",
+		"medications",
+		"medicines",
+		"prescriptions",
+		"generic names",
+		"brand names",
+		"pharmacist",
+		"prescribing",
+		"RxNorm"
+	],
+	"version": "rxnorm-prescribe-2026.11.02-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "RxNorm Current Prescribable Content, November 2, 2026",
+			"url": "https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html",
+			"license": "Public domain (U.S. Government work)",
+			"licenseUrl": "https://www.nlm.nih.gov/research/umls/rxnorm/docs/termsofservice.html",
+			"attribution": "This product uses publicly available data courtesy of the U.S. National Library of Medicine (NLM), National Institutes of Health, Department of Health and Human Services; NLM is not responsible for the product and does not endorse or recommend this or any other product.",
+			"notice": "Ingredient, precise ingredient and brand names from the November 2, 2026 release (RxNorm_full_prescribe_11022026.zip), selected, normalized and filtered by WriteKite. Strengths, dose forms, codes and synonyms are excluded. This dated pack may not reflect the most current or accurate NLM data. Brand names are trademarks of their owners; no affiliation or endorsement is implied. Provided as is, without warranty."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "medical",
+	"name": "Medical",
+	"description": "Medicine, anatomy, and health sciences.",
+	"keywords": [
+		"medicine",
+		"healthcare",
+		"health care",
+		"biomedical",
+		"clinical",
+		"cardiology",
+		"oncology",
+		"neurology",
+		"radiology",
+		"dentistry",
+		"nursing",
+		"pharmacology",
+		"anatomy",
+		"MeSH"
+	],
+	"version": "mesh-2026.08.12-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "Medical Subject Headings (MeSH), 2026",
+			"url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz",
+			"license": "NLM data terms",
+			"licenseUrl": "https://www.nlm.nih.gov/databases/download/terms_and_conditions.html",
+			"attribution": "Courtesy of the U.S. National Library of Medicine",
+			"notice": "Selected whole terms, normalized and filtered by WriteKite from the August 12, 2026 source. This dated pack does not reflect the most current or accurate NLM data. NLM does not endorse WriteKite. Data are supplied without warranties; see NLM data terms."
+		}
+	]
+}

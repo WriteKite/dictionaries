@@ -1,0 +1,27 @@
+{
+	"id": "astronomy",
+	"name": "Astronomy",
+	"description": "Astrophysics, stars, planets, and observational astronomy.",
+	"keywords": [
+		"space science",
+		"cosmology",
+		"astrophysics",
+		"telescopes",
+		"exoplanets",
+		"galaxies",
+		"stellar physics",
+		"astrochemistry"
+	],
+	"version": "uat-6.0.0-v2",
+	"license": "CC BY-SA 3.0",
+	"sources": [
+		{
+			"name": "Unified Astronomy Thesaurus, 6.0.0",
+			"url": "https://github.com/astrothesaurus/UAT/releases/tag/v6.0.0",
+			"license": "CC BY-SA 3.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+			"attribution": "American Astronomical Society, Unified Astronomy Thesaurus v6.0.0.",
+			"notice": "Release December 16, 2025. Labels selected, normalized and filtered by WriteKite; definitions are excluded. This derived terminology pack is also licensed under CC BY-SA 3.0. Retain attribution and ShareAlike rights when redistributing it. Provided as is, without warranty or endorsement."
+		}
+	]
+}

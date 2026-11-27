@@ -1,0 +1,34 @@
+name: "Suggest a dictionary"
+description: "Propose a dictionary for a field with none yet. You'll need openly licensed sources."
+title: "[NEW DICTIONARY] <subject>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: field
+    attributes:
+      label: "Field or subject"
+      description: "Name the subject, for example education. Check in `dictionaries/` that no existing dictionary covers it."
+    validations:
+      required: true
+  - type: textarea
+    id: writers
+    attributes:
+      label: "Writers in this field"
+      description: "Say who writes in this field, for example teachers, school leaders and researchers."
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Openly licensed sources"
+      description: "List the sources for the words, one per line: a link, then the license. Open licenses only, such as CC0, CC BY, CC BY-SA, public domain or MIT."
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: "Example words"
+      description: "Optional. Give a few words, one per line, that spell checkers mark as wrong today and this dictionary would accept."
+      render: text
+    validations:
+      required: false

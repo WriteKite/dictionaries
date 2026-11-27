@@ -1,0 +1,39 @@
+{
+	"id": "physics",
+	"name": "Physics",
+	"description": "Physics, from quantum and particle physics to optics and materials.",
+	"keywords": [
+		"physics",
+		"quantum mechanics",
+		"particle physics",
+		"nuclear physics",
+		"condensed matter",
+		"optics",
+		"acoustics",
+		"thermodynamics",
+		"electromagnetism",
+		"relativity",
+		"mechanics",
+		"materials science"
+	],
+	"version": "physh-2.8.0-wiktionary-2026.10.01-v4",
+	"license": "CC BY-SA 4.0",
+	"sources": [
+		{
+			"name": "Physics Subject Headings (PhySH), release 2.8.0",
+			"url": "https://github.com/physh-org/PhySH/releases/tag/v2.8.0",
+			"license": "CC0 1.0",
+			"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"attribution": "PhySH, American Physical Society.",
+			"notice": "Release of March 24, 2026. English preferred and alternative labels of concepts that are not deprecated, selected, normalized and filtered by WriteKite. Released under CC0. The APS does not endorse WriteKite."
+		},
+		{
+			"name": "English Wiktionary, dump of October 1, 2026 (kaikki.org extract)",
+			"url": "https://en.wiktionary.org/",
+			"license": "CC BY-SA 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"attribution": "Wiktionary contributors, English Wiktionary, https://en.wiktionary.org/.",
+			"notice": "Headwords and their listed inflections from the Physics, Optics, Quantum mechanics, Quantum physics, Mechanics, Nuclear physics, Particle physics, Subatomic particles, Relativity, Thermodynamics, Electromagnetism, Acoustics, Physical quantities and Physical constants categories, taken from the kaikki.org wiktextract extract of the October 1, 2026 dump and selected and filtered by WriteKite. Because it includes Wiktionary material, this dictionary as a whole is licensed under CC BY-SA 4.0; share it and changes to it under the same licence."
+		}
+	]
+}

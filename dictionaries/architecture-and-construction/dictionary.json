@@ -1,0 +1,31 @@
+{
+	"id": "architecture-and-construction",
+	"name": "Architecture and construction",
+	"description": "Buildings, architectural elements, construction, and building materials.",
+	"keywords": [
+		"architecture",
+		"construction",
+		"building",
+		"buildings",
+		"architectural history",
+		"historic preservation",
+		"masonry",
+		"carpentry",
+		"building materials",
+		"landscape architecture",
+		"urban design",
+		"AAT"
+	],
+	"version": "aat-2026.11.26-v4",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "Getty Art & Architecture Thesaurus (AAT), retrieved November 26, 2026",
+			"url": "https://vocab.getty.edu/",
+			"license": "ODC-By 1.0",
+			"licenseUrl": "https://opendatacommons.org/licenses/by/1-0/",
+			"attribution": "This dictionary contains information from Art & Architecture Thesaurus (AAT)® which is made available under the ODC Attribution License.",
+			"notice": "English labels from the built works, complexes, open spaces and site elements of the Built Environment hierarchy, the general, architectural, built-work and system components, and the building materials, cements, concretes, mortars, glass, tile, bitumen, adhesives, coatings, woods and building stones of the Materials hierarchy, retrieved from the Getty SPARQL endpoint on November 26, 2026, and selected, normalized and filtered by WriteKite; parenthetical qualifiers are removed. AAT © J. Paul Getty Trust. AAT is a registered trademark of the J. Paul Getty Trust, named here as a source; the Getty does not endorse WriteKite. Provided as is, without warranty."
+		}
+	]
+}

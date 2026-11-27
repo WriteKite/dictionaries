@@ -1,0 +1,47 @@
+{
+	"id": "religion",
+	"name": "Religion",
+	"description": "Religion, theology, scripture, and Bible names.",
+	"keywords": [
+		"religion",
+		"theology",
+		"Christianity",
+		"Judaism",
+		"Islam",
+		"Hinduism",
+		"Buddhism",
+		"Bible",
+		"scripture",
+		"church",
+		"Bible names",
+		"religious studies"
+	],
+	"version": "wiktionary-2026.10.01-v1",
+	"license": "CC BY-SA 4.0",
+	"sources": [
+		{
+			"name": "English Wiktionary, dump of October 1, 2026 (kaikki.org extract of October 30, 2026)",
+			"url": "https://en.wiktionary.org/",
+			"license": "CC BY-SA 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"attribution": "Wiktionary contributors",
+			"notice": "Headwords and their listed inflected forms from senses labelled with this field's topics, filtered and normalized by WriteKite; definitions are not included. Because it includes Wiktionary material, this dictionary as a whole is licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)."
+		},
+		{
+			"name": "Hitchcock's Bible Names Dictionary, CrossWire SWORD module Hitchcock 2.0",
+			"url": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Hitchcock",
+			"license": "Public domain",
+			"licenseUrl": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Hitchcock",
+			"attribution": "Roswell D. Hitchcock, Hitchcock's New and Complete Analysis of the Holy Bible",
+			"notice": "Names that Easton's Bible Dictionary also lists."
+		},
+		{
+			"name": "Easton's Bible Dictionary (1897), CrossWire SWORD module Easton 2.0.1",
+			"url": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Easton",
+			"license": "Public domain",
+			"licenseUrl": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Easton",
+			"attribution": "M. G. Easton, Illustrated Bible Dictionary, third edition (1897)",
+			"notice": "Names that Hitchcock's list or Wiktionary also has, and words that Wiktionary also lists."
+		}
+	]
+}

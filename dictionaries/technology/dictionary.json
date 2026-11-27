@@ -1,0 +1,29 @@
+{
+	"id": "technology",
+	"name": "Technology",
+	"description": "Software, networking, and cybersecurity.",
+	"keywords": [
+		"IT",
+		"information technology",
+		"computing",
+		"computer science",
+		"programming",
+		"software development",
+		"cyber security",
+		"security",
+		"network protocols",
+		"networking"
+	],
+	"version": "software-5.4.3-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "CSpell software vocabulary, 5.4.3",
+			"url": "https://github.com/streetsidesoftware/cspell-dicts/tree/5fa3376da5efed6b13be4159309c70c8793af0de/dictionaries/software-terms",
+			"license": "MIT",
+			"licenseUrl": "https://raw.githubusercontent.com/streetsidesoftware/cspell-dicts/5fa3376da5efed6b13be4159309c70c8793af0de/dictionaries/software-terms/LICENSE",
+			"attribution": "Copyright (c) 2017–2025 Street Side Software.",
+			"notice": "Selected concept, cybersecurity, protocol, and acronym lists. Filtered and normalized by WriteKite for prose. Source commit 5fa3376da5efed6b13be4159309c70c8793af0de. Provided as is, without warranty. Full MIT notice is included with the pack."
+		}
+	]
+}

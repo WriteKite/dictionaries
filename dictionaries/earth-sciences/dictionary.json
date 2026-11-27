@@ -1,0 +1,45 @@
+{
+	"id": "earth-sciences",
+	"name": "Earth sciences",
+	"description": "Minerals, rocks, and geological time.",
+	"keywords": [
+		"geology",
+		"mineralogy",
+		"minerals",
+		"petrology",
+		"rocks",
+		"geochronology",
+		"stratigraphy",
+		"geoscience",
+		"mining",
+		"earth science"
+	],
+	"version": "ima-2026.11-bgs-2026.11-v2",
+	"license": "CC BY-SA 4.0",
+	"sources": [
+		{
+			"name": "Wikidata, mineral species (Q12089225)",
+			"url": "https://www.wikidata.org/wiki/Q12089225",
+			"license": "CC0 1.0",
+			"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"attribution": "Wikidata contributors.",
+			"notice": "English labels of mineral species with an approved, grandfathered, redefined or renamed IMA status, queried November 26, 2026."
+		},
+		{
+			"name": "The New IMA List of Minerals, November 2026",
+			"url": "https://cnmnc.units.it/",
+			"license": "CC BY-SA 3.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+			"attribution": "IMA Commission on New Minerals, Nomenclature and Classification (CNMNC), The New IMA List of Minerals, updated November 2026.",
+			"notice": "Used to confirm that each mineral name is a currently valid species; names are lowercased and Levinson, polytype and numeral suffixes removed by WriteKite. Because it uses this list, the pack is licensed under CC BY-SA 4.0, as CC BY-SA 3.0 allows for adaptations. Retain attribution and ShareAlike when redistributing. Provided as is, without warranty or endorsement."
+		},
+		{
+			"name": "BGS Vocabularies 2026.11: Rock Classification Scheme and Geochronology",
+			"url": "https://github.com/BritishGeologicalSurvey/vocabularies/releases/tag/2026.11",
+			"license": "OGL 3.0",
+			"licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+			"attribution": "Contains British Geological Survey materials © UKRI 2026.",
+			"notice": "Stable English labels from RockName and Geochronology, selected, normalized and filtered by WriteKite; qualifiers in brackets and rank words are removed. BGS does not endorse WriteKite. Provided as is, without warranty."
+		}
+	]
+}

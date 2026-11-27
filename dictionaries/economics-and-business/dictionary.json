@@ -1,0 +1,31 @@
+{
+	"id": "economics-and-business",
+	"name": "Economics and business",
+	"description": "Economics, business, management, and marketing.",
+	"keywords": [
+		"economics",
+		"economy",
+		"business",
+		"management",
+		"marketing",
+		"econometrics",
+		"trade",
+		"labour market",
+		"labor market",
+		"public finance",
+		"industry",
+		"STW"
+	],
+	"version": "stw-9.22-v4",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "STW Thesaurus for Economics, version 9.22",
+			"url": "https://zbw.eu/stw/version/latest/about.en.html",
+			"license": "CC BY 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+			"attribution": "STW Thesaurus for Economics, version 9.22, ZBW – Leibniz Information Centre for Economics, https://zbw.eu/stw.",
+			"notice": "Version issued November 24, 2026. English preferred and alternative labels from the Economics and Business economics subthesauri, selected, normalized and filtered by WriteKite; the first word of a label is lowercased unless it is a proper name, and parenthetical qualifiers are removed. Licensed under CC BY 4.0. Provided as is, without warranty. ZBW does not endorse WriteKite."
+		}
+	]
+}

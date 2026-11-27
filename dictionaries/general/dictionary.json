@@ -1,0 +1,66 @@
+{
+	"id": "general",
+	"name": "General English",
+	"description": "Words a general dictionary misses, mostly scientific, medical and financial.",
+	"keywords": [
+		"english",
+		"general",
+		"science",
+		"academic",
+		"technical",
+		"medical",
+		"finance"
+	],
+	"version": "general-2026.11.26-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "SCOWL (Spell Checker Oriented Word Lists) version 2, release 2026.02.25",
+			"url": "https://github.com/en-wl/wordlist/releases/tag/rel-2026.02.25",
+			"license": "SCOWL licence (MIT-like)",
+			"licenseUrl": "https://github.com/en-wl/wordlist/blob/rel-2026.02.25/Copyright",
+			"attribution": "Copyright 2000–2026 by Kevin Atkinson. Australian English data copyright 2016 by Benjamin Titze.",
+			"notice": "SCOWL's word sizes and regional spellings decided which words qualify and which regions each one belongs to. Word counts from other human-written text, namely books, online forums and question-and-answer sites, news, email, product reviews, web pages, transcripts and corrected learner essays, confirmed words that SCOWL already lists; none of that text is included. The full copyright and permission notices, including Benjamin Titze's for the Australian data, are in LICENSE.txt. Provided as is, without warranty."
+		},
+		{
+			"name": "arXiv abstracts to 2021",
+			"url": "https://huggingface.co/datasets/gfissore/arxiv-abstracts-2021",
+			"license": "CC0 1.0",
+			"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"attribution": "arXiv metadata, as collected in gfissore/arxiv-abstracts-2021.",
+			"notice": "Used only to count how often words appear. No text from the abstracts is included."
+		},
+		{
+			"name": "Europe PMC open-access abstracts, 2013 to 2021",
+			"url": "https://europepmc.org",
+			"license": "CC BY, as given for each article",
+			"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+			"attribution": "Abstracts of articles published under CC BY, retrieved through Europe PMC.",
+			"notice": "Used only to count how often words appear. No text from the abstracts is included."
+		},
+		{
+			"name": "Federal Register documents, 2010 to 2015",
+			"url": "https://www.federalregister.gov",
+			"license": "Public domain (work of the United States government)",
+			"licenseUrl": "https://www.federalregister.gov/reader-aids/using-federalregister-gov/understanding-the-federal-register",
+			"attribution": "Office of the Federal Register, National Archives and Records Administration.",
+			"notice": "Used only to count how often words appear. No text from the documents is included."
+		},
+		{
+			"name": "SEC annual reports (Form 10-K, Items 1 and 7), 2010 to 2020",
+			"url": "https://huggingface.co/datasets/eloukas/edgar-corpus",
+			"license": "Public SEC filings; EDGAR-CORPUS dataset under Apache 2.0",
+			"licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+			"attribution": "U.S. Securities and Exchange Commission EDGAR filings, as collected in EDGAR-CORPUS.",
+			"notice": "Used only to count how often words appear. No text from the filings is included."
+		},
+		{
+			"name": "TXD-22 human-written answers",
+			"url": "https://data.mendeley.com/datasets/prcjcggtjf",
+			"license": "CC BY 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+			"attribution": "TXD-22: A Large-Scale Benchmark Dataset for Multi-Class AI-Generated and Mixed-Source Text Identification, Mendeley Data.",
+			"notice": "Only the human-written answers were used, and only to count how often words appear. No text from the dataset is included."
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "fitness",
+	"name": "Fitness",
+	"description": "Exercise, weight training, bodybuilding, and yoga.",
+	"keywords": [
+		"fitness",
+		"exercise",
+		"workout",
+		"gym",
+		"personal trainer",
+		"weightlifting",
+		"strength training",
+		"bodybuilding",
+		"yoga",
+		"kinesiology"
+	],
+	"version": "wiktionary-2026.10.01-v1",
+	"license": "CC BY-SA 4.0",
+	"sources": [
+		{
+			"name": "English Wiktionary, dump of October 1, 2026 (kaikki.org extract of October 30, 2026)",
+			"url": "https://en.wiktionary.org/",
+			"license": "CC BY-SA 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"attribution": "Wiktionary contributors",
+			"notice": "Headwords and their listed inflected forms from senses labelled with this field's topics, filtered and normalized by WriteKite; definitions are not included. Because it includes Wiktionary material, this dictionary as a whole is licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)."
+		},
+		{
+			"name": "Wikidata, SPARQL query results of November 26, 2026",
+			"url": "https://www.wikidata.org/",
+			"license": "CC0 1.0",
+			"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"attribution": "Wikidata contributors",
+			"notice": ""
+		}
+	]
+}

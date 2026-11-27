@@ -1,0 +1,33 @@
+{
+	"id": "agriculture",
+	"name": "Agriculture",
+	"description": "Agriculture, food, forestry, fisheries, and environmental sciences.",
+	"keywords": [
+		"agronomy",
+		"horticulture",
+		"food science",
+		"nutrition",
+		"soil science",
+		"forestry",
+		"fisheries",
+		"aquaculture",
+		"livestock",
+		"animal husbandry",
+		"veterinary",
+		"environment",
+		"plants",
+		"AGROVOC"
+	],
+	"version": "agrovoc-2026.09.12-v2",
+	"license": "WriteKite Dictionary License",
+	"sources": [
+		{
+			"name": "FAO AGROVOC Core, September 12, 2026 snapshot",
+			"url": "https://aims.fao.org/standards/agrovoc/access-agrovoc",
+			"license": "CC BY IGO 3.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by/igo/3.0/",
+			"attribution": "Food and Agriculture Organization of the United Nations (FAO), AGROVOC.",
+			"notice": "English preferred and alternative labels from the dated Core snapshot, selected, normalized and filtered by WriteKite. Definitions, external vocabularies and other languages are excluded. Retain attribution, the license and this modification notice. Provided as is, without warranty. FAO does not endorse WriteKite."
+		}
+	]
+}

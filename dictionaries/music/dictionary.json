@@ -1,0 +1,39 @@
+{
+	"id": "music",
+	"name": "Music",
+	"description": "Musical instruments, genres, and music theory.",
+	"keywords": [
+		"music",
+		"musicians",
+		"music theory",
+		"musicology",
+		"instruments",
+		"genres",
+		"composition",
+		"orchestra",
+		"jazz",
+		"opera",
+		"singing",
+		"songwriting"
+	],
+	"version": "musicbrainz-2026.11.26-wiktionary-2026.10.01-v4",
+	"license": "CC BY-SA 4.0",
+	"sources": [
+		{
+			"name": "MusicBrainz genres and instruments, retrieved November 26, 2026",
+			"url": "https://musicbrainz.org/",
+			"license": "CC0 1.0",
+			"licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"attribution": "MusicBrainz, MetaBrainz Foundation.",
+			"notice": "Genre and instrument names from the MusicBrainz core data, released under CC0, selected and filtered by WriteKite. Tags, genre associations and aliases are not used. MetaBrainz does not endorse WriteKite."
+		},
+		{
+			"name": "English Wiktionary, dump of October 1, 2026 (kaikki.org extract)",
+			"url": "https://en.wiktionary.org/",
+			"license": "CC BY-SA 4.0",
+			"licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"attribution": "Wiktionary contributors, English Wiktionary, https://en.wiktionary.org/.",
+			"notice": "Headwords and their listed inflections from the Music, Musical instruments, Musical genres, Percussion, String, Woodwind, Brass, Wind and Organ instruments, Musical notes, Musical voices and registers, Musical meters and Musical symbols categories, taken from the kaikki.org wiktextract extract of the October 1, 2026 dump and selected and filtered by WriteKite. Because it includes Wiktionary material, this dictionary as a whole is licensed under CC BY-SA 4.0; share it and changes to it under the same licence."
+		}
+	]
+}
