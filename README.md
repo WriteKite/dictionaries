@@ -11,16 +11,16 @@ In WriteKite, writers on a paid plan add them in Settings, Dictionaries.
 Anywhere else, use the `words.txt` files. Each has one entry per line and nothing else. They have no regional spellings.
 Pick yours out of `regional.csv` by region code.
 
-Two top-level files, rebuilt at each release, combine everything:
+Two files, rebuilt after every change, combine everything:
 
-- [`words.txt`](words.txt): the entries of every dictionary
-- [`regional.csv`](regional.csv): every regional spelling
+- [`words.txt`](https://writekite.github.io/dictionaries/words.txt): the entries of every dictionary
+- [`regional.csv`](https://writekite.github.io/dictionaries/regional.csv): every regional spelling
 
 ## Dictionaries
 
 | Dictionary | Covers | Entries | License |
 | --- | --- | ---: | --- |
-| [All dictionaries](words.txt) | Every list below in one file, with regional spellings in [regional.csv](regional.csv) | 332,350 | CC BY-SA 4.0 |
+| [All dictionaries](https://writekite.github.io/dictionaries/words.txt) | Every list below in one file, with regional spellings in [regional.csv](https://writekite.github.io/dictionaries/regional.csv) | 332,350 | CC BY-SA 4.0 |
 | [Agriculture](dictionaries/agriculture/) | Agriculture, food, forestry, fisheries, and environmental sciences. | 53,185 | WriteKite Dictionary License |
 | [Architecture and construction](dictionaries/architecture-and-construction/) | Buildings, architectural elements, construction, and building materials. | 2,033 | WriteKite Dictionary License |
 | [Art and design](dictionaries/art-and-design/) | Art styles and periods, visual works, techniques, and typography. | 4,775 | WriteKite Dictionary License |
@@ -103,6 +103,6 @@ node scripts/check.mjs
   (writekite.io)", linked to https://writekite.io.
 - CC BY-SA: lists with a share-alike source. Wiktionary is a source of this kind. The IMA mineral list is another. The
   Unified Astronomy Thesaurus is one too. These lists ask for the same credit.
-- CC BY-SA 4.0: the combined top-level `words.txt` and `regional.csv`.
+- CC BY-SA 4.0: the combined `words.txt` and `regional.csv`.
 
 Each list's `dictionary.json` names its license. The full terms are in [`LICENSE.md`](LICENSE.md).
