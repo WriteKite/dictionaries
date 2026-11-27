@@ -37,7 +37,7 @@ For a pull request:
 
 Use capitals only for a word that's always capitalized, like `Lipitor`. An entry with capitals matches only those
 capitals, and a lowercase one matches any. Keep accents where English keeps them. Never edit the top-level `words.txt`
-and `regional.csv`. They combine every dictionary. Each release makes them again.
+and `regional.csv`. They combine every dictionary. A workflow rebuilds them after each merge.
 
 ## Fixing or removing a wrong entry
 

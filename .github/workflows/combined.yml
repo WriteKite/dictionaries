@@ -1,0 +1,29 @@
+name: Combined list
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dictionaries/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: combined-list
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: 24
+      - run: node scripts/combine.mjs
+      - run: |
+          git diff --quiet && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -am 'Rebuild the combined list from the dictionaries'
+          git push
