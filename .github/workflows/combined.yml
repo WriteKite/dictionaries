@@ -5,25 +5,34 @@ on:
     branches: [main]
     paths:
       - 'dictionaries/**'
+      - 'scripts/combine.mjs'
+      - 'scripts/lists.mjs'
+      - '.github/workflows/combined.yml'
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-  group: combined-list
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   combine:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}words.txt
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
           node-version: 24
-      - run: node scripts/combine.mjs
-      - run: |
-          git diff --quiet && exit 0
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -am 'Rebuild the combined list from the dictionaries'
-          git push
+      - run: node scripts/combine.mjs site
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346

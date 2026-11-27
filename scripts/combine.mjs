@@ -1,8 +1,15 @@
-import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { HEADER, order, REGIONS, rooted } from './lists.mjs';
 
-const ROOT = rooted(import.meta.url, process.argv.slice(2)).root;
+const {
+	root: ROOT,
+	rest: [OUTPUT],
+} = rooted(import.meta.url, process.argv.slice(2));
+if (!OUTPUT) {
+	console.error('usage: node scripts/combine.mjs [--root <repository>] <output folder>');
+	process.exit(1);
+}
 const lines = path => readFileSync(path, 'utf8').split('\n').filter(Boolean);
 
 const everywhere = new Set();
@@ -27,6 +34,7 @@ const words = [...everywhere].sort(order);
 const rows = [...regional.keys()]
 	.sort(order)
 	.map(entry => `${entry},${REGIONS.filter(region => regional.get(entry).has(region)).join(' ')}`);
-writeFileSync(join(ROOT, 'words.txt'), words.join('\n') + '\n');
-writeFileSync(join(ROOT, 'regional.csv'), [HEADER, ...rows].join('\n') + '\n');
+mkdirSync(OUTPUT, { recursive: true });
+writeFileSync(join(OUTPUT, 'words.txt'), words.join('\n') + '\n');
+writeFileSync(join(OUTPUT, 'regional.csv'), [HEADER, ...rows].join('\n') + '\n');
 console.log(`words.txt: ${words.length.toLocaleString('en-US')} entries; regional.csv: ${rows.length} entries`);
